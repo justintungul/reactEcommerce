@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { withRouter } from 'react-router-dom';
 
 import { Link } from 'react-router-dom';
 import { Form, Button, Col } from 'react-bootstrap';
@@ -32,6 +33,7 @@ class RegisterForm extends Component {
             .then(res => {
                 if (res.data.status) {
                     this.props.onSubmit(this.state);
+                    this.props.history.push("/");
                 }
             })
             .catch(err => {
@@ -74,4 +76,4 @@ class RegisterForm extends Component {
     }
 }
 
-export default RegisterForm;
+export default withRouter(RegisterForm);
