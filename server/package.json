@@ -1,0 +1,30 @@
+{
+  "name": "MEANProject",
+  "version": "1.0.0",
+  "description": "We can communicate here if needed.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredAvila/MEANProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaredAvila/MEANProject/issues"
+  },
+  "homepage": "https://github.com/JaredAvila/MEANProject#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12",
+    "mongoose-validator": "^2.1.0",
+    "socket.io": "^2.1.1",
+    "validator": "^10.9.0"
+  }
+}
