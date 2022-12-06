@@ -20,8 +20,8 @@
   "homepage": "https://github.com/JaredAvila/MEANProject#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "mongoose": "^5.3.12",
     "mongoose-validator": "^2.1.0",
     "socket.io": "^2.1.1",
